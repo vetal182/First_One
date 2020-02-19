@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+  <section class="main">
+    <div class="container">
+      <div class="main-inner">
+        <header class="main-header">
+          <div class="main-header__logo">
+            <img src="img/logo.webp" alt="">
+          </div>
+          <button class="main-header__menu">
+            <span></span>
+          </button>
+          <nav class="main-header__nav">
+            <ul class="main-header__list">
+              <li class="main-header__item"><a href="#main" class="main-header__link">О комплексе</a></li>
+              <li class="main-header__item"><a href="#testimonials" class="main-header__link">Район</a></li>
+              <li class="main-header__item"><a href="#appartments" class="main-header__link">Каталог квартир</a></li>
+              <li class="main-header__item"><a href="#questions" class="main-header__link">Ипотека</a></li>
+              <li class="main-header__item"><a href="#footer" class="main-header__link">Контакты</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="main-content">
+          <h1 class="main-content__title"> Жилой комплекс в историческом центре</h1>
+          <img class="main-content__img" src="img/mouse.svg" alt="mouse">
+        </div>
+
+        <div class="main-bottom">
+          <a href="#" class="main-bottom__item">
+            <svg class="main-bottom__img">
+              <use xlink:href="img/sprite.svg#placeholder"></use>
+            </svg>
+            Наб. реки Фонтанки 10-15
+          </a>
+          <a href="#" class="main-bottom__item">
+            <svg class="main-bottom__img">
+              <use xlink:href="img/sprite.svg#phone"></use>
+            </svg>
+            8 (812) 123-45-67
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials"  class="testimonials">
+    <div class="container letter--right">
+      <div class="testimonials__inner">
+
+        <div class="testimonials__item">
+          <svg class="testimonials__img">
+            <use xlink:href="img/sprite.svg#testimonials1"></use>
+          </svg>
+          <div class="testimonials__text">
+            Рядом исторические парки и скверы
+          </div>
+        </div>
+
+        <div class="testimonials__item">
+          <svg class="testimonials__img">
+            <use xlink:href="img/sprite.svg#testimonials2"></use>
+          </svg>
+          <div class="testimonials__text">
+            Полностью обустроенный
+          </div>
+        </div>
+
+        <div class="testimonials__item">
+          <svg class="testimonials__img">
+            <use xlink:href="img/sprite.svg#testimonials3"></use>
+          </svg>
+          <div class="testimonials__text">
+            10 фонтанов на территории
+          </div>
+        </div>
+
+        <div class="testimonials__item">
+          <svg class="testimonials__img">
+            <use xlink:href="img/sprite.svg#testimonials4"></use>
+          </svg>
+          <div class="testimonials__text">
+            6 км велодорожек
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="appartments" class="appartments">
+    <div class="container letter--left">
+      <h3 class="appartments__title title">Наши квартиры</h3>
+      <div class="appartments__items">
+        <a href="#" class="appartments__item">
+          <div class="appartments__img ibg">
+            <img src="img/appartments1.webp" alt="">
+          </div>
+          <span class="appartments__text">Лофт — 3 этажа</span>
+        </a>
+        <a href="#" class="appartments__item">
+          <div class="appartments__img ibg">
+            <img src="img/appartments2.webp" alt="">
+          </div>
+          <span class="appartments__text">Лофт — 3 этажа</span>
+        </a>
+        <a href="#" class="appartments__item">
+          <div class="appartments__img ibg">
+            <img src="img/appartments1.webp" alt="">
+          </div>
+          <span class="appartments__text">Лофт — 3 этажа</span>
+        </a>
+        <a href="#" class="appartments__item">
+          <div class="appartments__img ibg">
+            <img src="img/appartments2.webp" alt="">
+          </div>
+          <span class="appartments__text">Лофт — 3 этажа</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cta">
+    <div class="container">
+      <div class="cta__inner">
+
+        <div class="cta__info">
+          <h3 class="cta__title title">Хотите посмотреть<span class="spanimate">?</span></h3>
+          <div class="cta__text">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+            "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую
+            коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+          </div>
+        </div>
+
+        <form action="/" class="cta-form form">
+          <div class="form__item">
+            <input type="text" class="form__input" placeholder="Ваше имя">
+          </div>
+
+          <div class="form__item">
+            <input type="tel" class="form__input" placeholder="Ваш телефон">
+          </div>
+
+          <div class="form__item">
+            <div class="form__text">
+              *Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+            </div>
+          </div>
+
+          <div class="form__item">
+            <input type="submit" class="form__input form__input--submit" value="Посмотреть район">
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="video">
+    <div class="container letter--right">
+      <div class="video__box">
+        <div class="video__img ibg">
+          <img src="img/appartments2.webp" alt="">
+        </div>
+        <svg class="video__btn">
+          <use xlink:href="img/sprite.svg#play"></use>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="map">
+    <div class="container letter--left">
+      <h3 class="map__title title">Район на карте</h3>
+      <div class="map__box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8580.780909003019!2d28.66589630411247!3d50.25306346633718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472c6496dbfc78d3%3A0xbd3c4e00f4576ba3!2z0JHRg9C00LjQvdC-0Log0KLRgNC40LHQtdC70Y8!5e0!3m2!1sru!2sua!4v1581600320068!5m2!1sru!2sua"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="questions" class="questions">
+    <div class="container">
+      <h3 class="questions__title title">Есть вопросы<span class="spanimate">?</span></h3>
+      <form action="/" class="questions__form form">
+        
+        <div class="form__item">
+          <div class="form__text">
+            *Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+          </div>
+
+        </div>
+        <div class="form__item">
+          <input type="text" class="form__input" placeholder="Ваше имя">
+        </div>
+
+        <div class="form__item">
+          <input type="tel" class="form__input" placeholder="Ваш телефон">
+        </div>
+
+        <div class="form__item">
+          <input type="submit" class="form__input form__input--submit" value="Посмотреть район">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <img src="img/logo.png" alt="">
+        </div>
+        
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#">О комплексе</a></li>
+          <li class="footer__item"><a href="#">Район</a></li>
+          <li class="footer__item"><a href="#">Каталог квартир</a></li>
+          <li class="footer__item"><a href="#">Ипотека</a></li>
+          <li class="footer__item"><a href="#">Контакты</a></li>
+        </ul>
+  
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#">О комплексе</a></li>
+          <li class="footer__item"><a href="#">Район</a></li>
+          <li class="footer__item"><a href="#">Каталог квартир</a></li>
+          <li class="footer__item"><a href="#">Ипотека</a></li>
+          <li class="footer__item"><a href="#">Контакты</a></li>
+        </ul>
+  
+        <div class="footer__contacts contacts">
+          <ul class="contacts__list">
+            <li class="footer__item"><a href="#">Адрес: Наб. реки Фонтанки 10-15</a></li>
+            <li class="footer__item"><a href="#">Телефон: 8 (812) 123-45-67</a></li>
+            <li class="footer__item"><a href="#">Отдел продаж: 10:00 - 20:00</a></li>
+            <li class="footer__item"><a href="#">E-mail: <span>vip@housevip.ru</span></a></li>
+          </ul>
+  
+          <ul class="socials__list">
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <svg class="socials__img">
+                  <use xlink:href="img/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <svg class="socials__img">
+                  <use xlink:href="img/sprite.svg#vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <svg class="socials__img">
+                  <use xlink:href="img/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <svg class="socials__img">
+                  <use xlink:href="img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
